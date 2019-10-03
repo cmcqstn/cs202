@@ -1,2 +1,2 @@
 # cs202
-<a href="index.html">Classwork for CS202 FA19.</a>
+Click through for my [classwork for CS202 FA19](https://cmcqstn.github.io/cs202/index.html).
