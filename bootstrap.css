@@ -1,0 +1,60 @@
+/* 
+@media screen and (max-width:480px){
+    body{
+    background-color: blue; }
+}
+@media print{
+
+}
+@media screen and (max-width:768px) and (min-width:481px){
+    body{
+        background-color: violet;
+    }
+} */
+
+
+.navbar{
+    background:rgba(40, 40, 40, 0.8);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+.nav-link, .navbar-brand{
+    color:#fff;
+    cursor:pointer;
+}
+.nav-link{
+    margin-right: 1em !important;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+.jumbotron{
+    min-height:700px;
+    background-image: url(Lab3-bootstrap/images/header-bg.jpg);
+    background-size: cover;
+    color:#fff;
+    top:0;
+}
+.jumbotron .container{
+    width:40%;
+    margin: 0 auto;
+    padding-top:14%;
+}
+.container .row{
+    background-color: rgba(255, 247, 230, 0.3)
+}
+
+
+
+@media screen and (max-width:480px){
+    body{
+        background-color: rgb(255, 247, 230,); 
+    }
+    .col-lg-4{
+        padding-top:2rem;
+        justify-content: center;
+    }
+}
