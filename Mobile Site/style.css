@@ -25,9 +25,7 @@
     font-family: 'Playfair Display', sans-serif;
 }
 .col
-#carousel img{
-    height:17em;
-}
+
 .spacer{
     height: 1rem;
 }
@@ -73,10 +71,14 @@ footer h5{
     .col-media img{
         height:auto;
         width:400px;
-        padding: 1em 3em;
+        padding-top:3em;
+        padding-bottom:3em;
     }
     .col-sm p{
         padding: 2em 0.5em;
+    }
+    .col-xl{
+        height:50%;
     }
     
 }
