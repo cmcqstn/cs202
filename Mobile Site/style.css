@@ -1,0 +1,82 @@
+*{
+    background-color: #990f00;
+    color:#fff;
+}
+
+#title{
+    background-color: green;
+    text-align: center;
+    font-size: 2rem;
+}
+#Subtitle{
+    background-color: green;
+    text-align: center;
+    font-size: 1rem;
+}
+#sideways{
+    background-color: black;
+}
+.navbar{
+    background-color: #660a00 !important;
+    border-bottom: 2px #b31200 groove;
+}
+.navbar a{
+    color:#fff !important;
+    font-family: 'Playfair Display', sans-serif;
+}
+.col
+#carousel img{
+    height:17em;
+}
+.spacer{
+    height: 1rem;
+}
+.col-sm{
+    border-left: 1px dashed #660a00;
+    border-right: 1px dashed #800d00;
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+}
+.col-sm img{
+    width: 75%;
+    height: 50%;
+}
+.col-xl{
+    width:100%;
+    height:auto;
+    padding:1rem 10rem;
+    justify-content: center;
+}
+.col-xl img{
+    width: 100%;
+}
+#notime{
+    height: 0;
+}
+
+footer h5{
+    font-family: 'Philosopher', sans-serif;
+    justify-content: center;
+    padding-left: 5em;
+}
+.overhead{
+    height:200px;
+    width:100%;
+    background-repeat: no-repeat;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .col-media{
+        width:100%;
+    }
+    .col-media img{
+        height:auto;
+        width:400px;
+        padding: 1em 3em;
+    }
+    .col-sm p{
+        padding: 2em 0.5em;
+    }
+    
+}
