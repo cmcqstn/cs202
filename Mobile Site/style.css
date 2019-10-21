@@ -68,7 +68,7 @@ footer h5{
     .col-media{
         width:100%;
     }
-    .col-media img{
+    .col-sm img{
         height:auto;
         width:400px;
         padding-top:3em;
@@ -78,7 +78,8 @@ footer h5{
         padding: 2em 0.5em;
     }
     .col-xl{
-        height:50%;
+        padding:0;
+        height:75%;
         width:auto;
     }
     
